@@ -1,5 +1,8 @@
 body {
 	background-image: url("../img/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 .content {
@@ -8,7 +11,9 @@ body {
 	background-color: rgba(0, 0, 0, 0.7);
 	width: 800px;
 	height: 1200px;
+	padding: 15px;
 	margin: auto;
+	border:	medium solid;
 }
 
 .title {
@@ -16,7 +21,7 @@ body {
 	margin-bottom: 0;
 	text-align: center;
 	color: white;
-	font-family: "DejaVu Sans",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "DejaVu Sans";
 	font-size: 100px;
 	font-weight: lighter;
 }
@@ -24,7 +29,7 @@ body {
 .under_title {
 	text-align: center;
 	color: white;
-	font-family: "DejaVu Sans",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "DejaVu Sans";
 	font-size: 25px;
 	font-weight: lighter;
 }
@@ -33,7 +38,7 @@ body {
 	margin-top: 125px;
 	text-align: center;
 	color: rgb(255, 0, 0);
-	font-family: "DejaVu Sans",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: "DejaVu Sans";
 	font-size: 60px;
 	font-weight: lighter;
 }
