@@ -32,7 +32,7 @@ body {
 	margin-bottom: 20px;
 	color: white;
 	text-decoration: none;
-	font-family: "DejaVu Sans";
+	font-family: "DejaVu Sans",'Gill Sans',Courier New, Courier, monospace;
 	font-size: 40px;
 	font-weight: lighter;
 }
@@ -99,7 +99,7 @@ body {
 }
 
 .release_date > h1 {
-	font-family: "DejaVu Sans";
+	font-family: "DejaVu Sans",'Gill Sans',Courier New, Courier, monospace;
 	font-size: 60px;
 	font-weight: normal;
 	margin-top: 0;
