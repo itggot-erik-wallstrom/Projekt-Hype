@@ -24,16 +24,28 @@ body {
 	background-attachment: fixed;
 }
 
+.content {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 5px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 800px;
+	border:	thin solid;
+}
+
 .top_section {
+	margin: auto;
+	margin-top: 35px;
+	margin-bottom: 20px;
+
 	display: flex;
 	flex-direction: horizontal;
 	justify-content: space-around;
-	flex-grow: 1;
 	border: thin solid black;
-	background-color: rgba(0, 0, 0, 0.5);
-	margin: auto;
-	margin-top: 100px;
-	margin-bottom: 20px;
+	background-color: rgba(0, 0, 0, 0.65);
 	color: white;
 	text-decoration: none;
 	font-family: "DejaVu Sans",'Gill Sans', Courier New, Courier, monospace;
@@ -45,6 +57,26 @@ body {
 	color: rgb(80, 80, 255);
 	margin-left: 20px;
 	margin-right: 20px;
+}
+
+.top_section > a.selected:link {
+	text-decoration: underline;
+	color: rgb(80, 80, 255);
+}
+
+.top_section > a.selected:visited {
+	text-decoration: underline;
+	color: rgb(80, 80, 255);
+}
+
+.top_section > a.selected:hover {
+	text-decoration: underline;
+	color: rgb(80, 80, 255);
+}
+
+.top_section > a.selected:active {
+	text-decoration: underline;
+	color: rgb(80, 80, 255);
 }
 
 .top_section > a:link {
@@ -64,21 +96,8 @@ body {
 	text-decoration: none;
 }
 
-.content {
-	display: flex;
-	flex-direction: column;
-	background-color: rgba(0, 0, 0, 0.7);
-	width: 800px;
-	height: 1150px;
-	padding: 5px;
-	margin: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
-	border:	thin solid;
-}
-
 .title {
-	margin-top: 40px;
+	margin-top: 25px;
 	margin-bottom: 0;
 	text-align: center;
 	color: white;
@@ -115,9 +134,17 @@ body {
 
 .trailer {
 	margin: auto;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 	margin-top: 50px;
 	border: thin solid;
 }
 
+/* about.html */
+.info {
+	margin: auto;
+	width: 750px;
+}
 
+.info_text {
+	color: white;
+}
