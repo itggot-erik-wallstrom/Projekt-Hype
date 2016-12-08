@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+
+
+
 @keyframes fade {
 	0% {color: rgb(255, 0, 0);}
 	25% {color: rgb(255, 50, 50);}
@@ -48,7 +53,7 @@ body {
 	background-color: rgba(0, 0, 0, 0.65);
 	color: white;
 	text-decoration: none;
-	font-family: "DejaVu Sans",'Gill Sans', 'Courier New', 'Courier, monospace';
+	font-family: "DejaVu Sans","Open Sans",sans-serif;
 	font-size: 40px;
 	font-weight: lighter;
 }
@@ -101,7 +106,7 @@ body {
 	margin-bottom: 0;
 	text-align: center;
 	color: white;
-	font-family: "DejaVu Sans";
+	font-family: "DejaVu Sans","Open Sans",sans-serif;
 	font-size: 100px;
 	font-weight: lighter;
 }
@@ -109,7 +114,7 @@ body {
 .under_title {
 	text-align: center;
 	color: white;
-	font-family: "DejaVu Sans";
+	font-family: "DejaVu Sans","Open Sans",sans-serif;
 	font-size: 25px;
 	font-weight: lighter;
 }
@@ -142,11 +147,21 @@ body {
 
 .gallery {
 	margin:auto;
+	width: 750px;
+	
+	
 
+
+}
+.gallery > img
+{
+	border: thin solid;
+}
 /* about.html */
 .info {
 	margin: auto;
 	width: 750px;
+	
 
 }
 
