@@ -48,7 +48,7 @@ body {
 	background-color: rgba(0, 0, 0, 0.65);
 	color: white;
 	text-decoration: none;
-	font-family: "DejaVu Sans",'Gill Sans', Courier New, Courier, monospace;
+	font-family: "DejaVu Sans",'Gill Sans', 'Courier New', 'Courier, monospace';
 	font-size: 40px;
 	font-weight: lighter;
 }
